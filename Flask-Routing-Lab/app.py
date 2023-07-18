@@ -12,13 +12,11 @@ app = Flask(  # Create a flask app
 def hello_world():
     return render_template("home.html") 
 @app.route('/women')   
-def hello_world():
+def hello():
     return render_template("women.html")
 @app.route('/men') 
-def hello_world():
+def world():
     return render_template("men.html") 
-
-
 
 # Your code should be above
 
